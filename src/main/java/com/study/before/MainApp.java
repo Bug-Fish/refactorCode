@@ -11,5 +11,7 @@ public class MainApp {
         Customer customer = new Customer("Zjy");
         customer.addRental(rental);
         System.out.println(customer.statement());
+
+        System.out.println(customer.htmlStatement());
     }
 }
